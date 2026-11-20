@@ -3,9 +3,9 @@ name: Schedule test
 on:
   schedule:
     - cron: "*/10 * * * *"
-    - cron: '5,35 19-20 * * 1-5'
+    - cron: '1/5 18-19 * * *'
       timezone: "Asia/Manila"
-    - cron: '15,45 3-4 * * 1-5'
+    - cron: '3/5 2-3 * * *'
       timezone: "America/Los_Angeles"
   workflow_dispatch:
 
